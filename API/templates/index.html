@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block head%}
+
+{% endblock %}
+
+{% block body %}
+<div>
+    <h1  style="color:#373636;">LEVEL OF OBESITY PREDICTOR</h1>
+
+    <form action="/predict" method="POST">
+        <div>
+            <p>Enter your sex : (1= female, 0 = male)</p>
+            <input type="text" name = "Gender" id="Gender">
+        </div>
+
+        <div>
+            <p>Enter your age</p>
+            <input type="text" name = "Age" id="Age">
+        </div>
+
+        <div>
+            <p>Do you have an history of overweight in your family? (1 = YES, 0 = NO)</p>
+            <input type="text" name = "family_history_with_overweight" id="family_history_with_overweight">
+        </div>
+
+        <div>
+            <p>Do you eat caloric food ? (1 = YES, 0 = NO)</p>
+            <input type="text" name = "FAVC" id="FAVC">
+        </div>
+
+        <div>
+            <p>How often do you eat vegetables ? ( 0 = never 1= sometimes 3= always )</p>
+            <input type="text" name = "FCVC" id="FCVC">
+        </div>
+
+        <div>
+            <p>How many meals do you eat per day?</p>
+            <input type="text" name = "NCP" id="NCP">
+        </div>
+
+        <div>
+            <p>How often do you eat between meals? ( 0 = no, 1 = sometimes, 2 = frequently, 3 = always )</p>
+            <input type="text" name = "CAEC" id="CAEC">
+        </div>
+
+        <div>
+            <p>Do you smoke ? (0 = NO, YES = 1)</p>
+            <input type="text" name = "SMOKE" id="SMOKE">
+        </div>
+
+         <div>
+            <p>How much water do you drink daily?</p>
+            <input type="text" name = "CH2O" id="CH2O">
+        </div>
+
+        <div>
+            <p>Do you monitor your calories? (0 = no, 1 = yes)</p>
+            <input type="text" name = "SCC" id="SCC">
+        </div>
+
+        <div>
+            <p>How often per week do you practice a physical activity ? (1 days, 2 days.. etc)</p>
+            <input type="text" name = "FAF" id="FAF">
+        </div>
+
+        <div>
+            <p>How many times do you use technological devices per day? (in hours)</p>
+            <input type="text" name = "TUE" id="TUE">
+        </div>
+
+        <div>
+            <p>How often do you drink alcool? (0 = you don't, 1 = sometimes, 2 = frequently, 3 = always)</p>
+            <input type="text" name = "CALC" id="CALC">
+        </div>
+
+        <div>
+            <p>Which transportation do you usually use ? (Automobile':1,
+            'Motorbike':2,
+            'Bike':3,
+            'Public_Transportation':4,
+            'Walking':5)</p>
+            <input type="text" name = "MTRANS" id="MTRANS">
+        </div>
+
+        <input type="submit" value="Predict">
+    </form>
+    <h2>Predicted: {{pred}}</h2>
+</div>
+{% endblock %}
