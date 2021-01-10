@@ -16,6 +16,8 @@ Normaly, it was redacted to be easy to read and quite understandable aswell. Enj
 
 Watch out and don't run the GridSearchCV ;)
 
+Thanks to a Boosting model with tuned hyper parameters, we've managed to reach an accuracy score of 0.839 !
+
 # API
 
 Our API is a replica from of the survey. You will have 14 questions to answer and our model will give you your weight level ! (from insufficent weight to obesity lvl 3)
