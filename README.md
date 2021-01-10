@@ -2,12 +2,12 @@
 
 # Presentation of the study
 
-In the PDF presentation you will find a quick display how the dataset, what is its interest and purpose, what we have done and also our results !
+In the PDF presentation you will find a quick display how the dataset, what are its interest and purpose, what we have done and also our results !
 
 # Notebook
 
 This is the notebook where all our tests, functions, results where calculated.
-Normaly, it was redacted to be easy to read and quite understandable aswell. Enjoy your reading
+Normaly, it was redacted to be easy to read and quite understandable aswell. Enjoy your reading.
 
 Watch out and don't run the GridSearchCV ;)
 
