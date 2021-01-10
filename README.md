@@ -1,5 +1,9 @@
 # Welcome to our study about Obesity
 
+https://archive.ics.uci.edu/ml/datasets/Estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition+?fbclid=IwAR3zRLaalALJDYFVWgaCo5tZbTJJdyxehJ05mJZ_21whf-MdY-gTIyKxEXw#
+
+https://www.sciencedirect.com/science/article/pii/S2352340919306985?via%3Dihub
+
 # Presentation of the study
 
 In the PDF presentation you will find a quick display how the dataset, what are its interest and purpose, what we have done and also our results !
